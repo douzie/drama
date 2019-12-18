@@ -1,0 +1,10 @@
+git config --global user.name "douzie"
+git config --global user.email "douzie@gmail.com"
+
+git init Initialized empty Git repository in C:/www/git/.git/
+
+ssh-keygen -t rsa -C "douzie@gmail.com"
+
+git remote add origin git@github.com:douzie/drama.git
+
+git clone git@github.com:douzie/drama.git
